@@ -26,7 +26,7 @@ public class Order {
     private Member member;
 
 
-    @OneToMany(mappedBy = order)
+    @OneToMany(mappedBy = "order")
     private List<OrderItem> orderItems = new ArrayList<>();
 //
     @OneToOne
