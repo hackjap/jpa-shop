@@ -89,4 +89,13 @@
 - 회원 등록
 - 회원 목록 조회 
 
+### 구현
+- JPA 모든 데이터변경에는 @Transactionl 이 필요 
+  - 데이터 읽기에는 readOnly(읽기전용) 옵션을 적용 ,  
+  - 상황에 따라 많은 쪽(읽기,쓰기)에 class레벨의 Transacton을 주고 필요한 부분에  @Transactinoal 을 개별적으로 부여
 
+> @RequiredArgsConstructor
+lobok의 annotation으로 private final 변수에 맞춰 자동으로 생성자를 생성하고 주입해줌, 또한 스프링 데이터 JPA가 Entitymager 또한 지원 
+>
+> 
+  
