@@ -109,7 +109,17 @@ lobok의 annotation으로 private final 변수에 맞춰 자동으로 생성자�
 - create : 실행시 drop 후 crate 
 - create - drop : 종료시점에 drop 하여 깨끗하게 날려줌
 
+## 상품 도메인 개발
 
+### 구현 기능
+- 상품 등록
+- 상품 목록 조회
+- 상품 수정 
+
+
+### 상품 엔티티 개발 
+- 엔티티에 비즈니스 로직을 넣는게 좋음 
+ 
 
 
   
