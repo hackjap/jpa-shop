@@ -97,5 +97,19 @@
 > @RequiredArgsConstructor
 lobok의 annotation으로 private final 변수에 맞춰 자동으로 생성자를 생성하고 주입해줌, 또한 스프링 데이터 JPA가 Entitymager 또한 지원 
 >
-> 
+
+### 테스트
+- @Rollback(value = false) : 테스트 모드시 기본 rollback 처리 되어있어 DB 저장 시 , 옵션
+- @Transactional(데이터 변경시에 꼭!!!)
+- em.flush 를 해줄경우 rollback 되는 insert 문을 보여줌
+- memory db를 이용하여 테스트
+  - test/resource/application.yml 생성
+  - url : jdbc:h2:mem:test 로 변경
+  - 하지만 스프링 부트는 기본적인 설정이없으면 자동으로 메모리 모드로 설정 
+- create : 실행시 drop 후 crate 
+- create - drop : 종료시점에 drop 하여 깨끗하게 날려줌
+
+
+
+
   
