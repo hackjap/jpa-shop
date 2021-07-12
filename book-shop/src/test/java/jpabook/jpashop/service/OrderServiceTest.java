@@ -25,7 +25,7 @@ class OrderServiceTest {
 
     @Autowired EntityManager em;
     @Autowired OrderService orderService;
-    @Autowired  OrderRepository orderRepository;
+    @Autowired OrderRepository orderRepository;
 
 
     // 상품 주문 테스트

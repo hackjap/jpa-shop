@@ -26,7 +26,7 @@ public abstract class Item {
     private int stockQuantity;
 
     @ManyToMany(mappedBy = "items")
-    private List<Category> cetegories = new ArrayList<>();
+    private List<Category> cetegories = new ArrayList<Category>();
 
     // == 비즈니스 로직 == //
 
