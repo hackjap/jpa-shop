@@ -227,7 +227,20 @@ lobok의 annotation으로 private final 변수에 맞춰 자동으로 생성자�
 
 
 
+## API 개발 고급 
 
+---
+
+
+### 조회용 샘플 데이터 입력
+
+### 지연 로딩과 조회 성능 최적화
+
+### 컬렉션 조회 최적화
+
+### 페이징 한계 돌파
+
+### OSIV와(OpenSessionInView) 성능 최적화
 
 
 

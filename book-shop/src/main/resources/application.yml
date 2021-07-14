@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
       properties:
         hibernate:
     #      show_sql: ture  Systemout으로 출력
