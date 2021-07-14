@@ -25,6 +25,8 @@ public class Order {
     @Column(name = "order_id")
     private Long id;
 
+
+
     // 다대일
     @ManyToOne(fetch = LAZY)
     // FK의 컬럼명
